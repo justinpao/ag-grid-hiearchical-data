@@ -110,5 +110,6 @@ Coming Soon!
 
 # Deploying
 
-run yarn prod 
-Grab the index.js file created and make it available via a CDN
+run `yarn prod`
+
+Grab the `index.js` file created and make it available via a CDN
