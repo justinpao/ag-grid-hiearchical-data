@@ -32,7 +32,7 @@ const App = ({ triggerQuery, model, modelUpdate }) => {
     };
   }, []);
   const cellClickedListener = useCallback( event => {
-      triggerQuery("query1")
+      triggerQuery("setContainer")
       const selectedRows = event.data;
       modelUpdate(({ selectedRow: selectedRows }))
     }, []);
